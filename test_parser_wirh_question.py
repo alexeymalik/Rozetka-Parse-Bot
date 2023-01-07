@@ -5,7 +5,7 @@ from telebot import types
 import requests
 from bs4 import BeautifulSoup
 import fake_useragent
-bot = telebot.TeleBot("5884446980:AAFGVwnt2Qn4UejVdduUHK-I73ioCvQG_4I")
+bot = telebot.TeleBot("token")
 @bot.message_handler(commands=['start'])
 def welcome(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
